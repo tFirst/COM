@@ -113,7 +113,6 @@ void __stdcall CA::InputFromCmd(int *values)
 {
    println("CA:InputFromCmd");
    this.values = values;
-   //OutputToCmd(values);
 }
 
 void __stdcall CA::InputFromFile(string filename)
